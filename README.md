@@ -39,18 +39,25 @@ Interface web moderna para uma loja virtual de produtos orgânicos, desenvolvida
 - Docker (opcional)
 - Backend rodando em `http://localhost:8000`
 
-### Opção 1: Com Docker (Recomendado)
+###  Opção 1: Com Docker Compose (Recomendado)
 
 ```bash
 # Clone o repositório
 git clone https://github.com/ledelmastro/natural-organic-frontend.git
 cd natural-organic-frontend
 
-# Edite o arquivo .env com suas chaves de API ou utilize a disponível
+# Configurar variáveis de ambiente
+# Copie o arquivo de exemplo:
+cp .env.example .env
+
+# ⚠️ E configure:
+
+GEOAPIFY_API_KEY
+VITE_WEATHER_API_KEY
+DATABASE_URL
 
 # Build e execute o container
-docker build -t natural-organic-frontend .
-docker run -p 3000:80 natural-organic-frontend
+docker-compose up -d --build
 
 # Acesse http://localhost:3000
 ```
@@ -63,6 +70,12 @@ npm install
 
 # Configurar variáveis de ambiente
 cp .env.example .env
+
+# ⚠️ E configure:
+
+GEOAPIFY_API_KEY
+VITE_WEATHER_API_KEY
+DATABASE_URL
 
 # Executar em modo desenvolvimento
 npm run dev
