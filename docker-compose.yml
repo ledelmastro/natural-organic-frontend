@@ -18,9 +18,9 @@ services:
       timeout: 5s
       retries: 5
 
-  # API Principal (FastAPI)
+  # API Backend (FastAPI)
   api:
-    build: ./backend-api
+    build: ./natural-organic-backend
     container_name: natural-organic-store
     restart: always
     env_file:
@@ -36,7 +36,7 @@ services:
 
   # Frontend (React + Nginx)
   frontend:
-    build: ./frontend-app
+    build: ./natural-organic-frontend
     container_name: natural-organic-frontend
     restart: always
     ports:
