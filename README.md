@@ -36,7 +36,7 @@ Interface web moderna para uma loja virtual de produtos orgânicos, desenvolvida
 
 ### Pré-requisitos
 - Node.js 18+
-- Docker (opcional)
+- Docker
 - Backend rodando em `http://localhost:8000`
 
 ###  Opção 1: Com Docker Compose (Recomendado)
