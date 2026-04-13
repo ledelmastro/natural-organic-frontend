@@ -239,7 +239,7 @@ VITE_API_URL=http://localhost:8000
 3.Clique no botão "Create an account" (Criar uma conta) e insira seu endereço de e-mail, senha e outras informações obrigatórias.
 4. Verifique sua caixa de entrada para encontrar o e-mail de verificação da Geoapify e siga o link de confirmação no e-mail para validar sua conta.
 5. Copie a Chave da API (API Key) do painel de controle (dashboard) e Adicione em `.env`:
-```env
+   
 GEOAPIFY_API_KEY=sua_chave_aqui
 
 ---
