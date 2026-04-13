@@ -131,7 +131,7 @@ natural-organic-frontend/
 
 ---
 
-## 🌐 API Backend
+### 🌐 API Backend
 
 Este frontend consome a API backend em:
 - **Repositório**: [natural-organic-backend](https://github.com/ledelmastro/natural-organic-backend)
