@@ -211,4 +211,4 @@ VITE_API_URL=http://localhost:8000
 
 ## 🏗️ Diagrama de Arquitetura
 
-   ![Diagrama de Arquitetura](\docs\image.png)
+   ![Diagrama de Arquitetura](/docs/image.png)
