@@ -217,9 +217,25 @@ VITE_API_URL=http://localhost:8000
 ### Como obter as chaves de API
 
 1. **WeatherAPI**:
+   - **Documentação**: https://www.geoapify.com/
    - Cadastre-se em https://www.weatherapi.com/
    - Copie sua API Key do dashboard
    - Gratuito até 1 milhão de chamadas/mês
+
+3. **GeoApify**:
+- **Documentação**: https://apidocs.geoapify.com/docs
+- **Uso**: Geocoding e cálculo de rotas
+- **Gratuito**: Até 3.000 requisições/dia
+- **Licença**: Necessário cadastro
+
+**Cadastro:**
+1. Acesse https://www.geoapify.com/
+2. Go to the Geoapify website and click the "Sign Up" button in the top right corner.
+3.Clique no botão "Create an account" (Criar uma conta) e insira seu endereço de e-mail, senha e outras informações obrigatórias.
+4. Verifique sua caixa de entrada para encontrar o e-mail de verificação da Geoapify e siga o link de confirmação no e-mail para validar sua conta.
+5. Copie a Chave da API (API Key) do painel de controle (dashboard) e Adicione em `.env`:
+```env
+GEOAPIFY_API_KEY=sua_chave_aqui
 
 ---
 
