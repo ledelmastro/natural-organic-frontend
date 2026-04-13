@@ -211,32 +211,4 @@ VITE_API_URL=http://localhost:8000
 
 ## 🏗️ Diagrama de Arquitetura
 
-
-┌──────────────────────────────┐
-│         React SPA            │
-│         (Frontend)           │
-└──────────────┬───────────────┘
-               │
-     ┌─────────┴─────────┐
-     │                   │
-     ▼                   ▼
-┌──────────────┐   ┌──────────────┐
-│   FastAPI    │   │  WeatherAPI  │
-│  (Backend)   │   │  (Externo)   │
-└──────┬───────┘   └──────────────┘
-       │
-       ▼
-┌──────────────────────────────┐
-│         PostgreSQL           │
-│         (Database)           │
-└──────────────┬───────────────┘
-               │
-       ┌───────┴────────┐
-       │                │
-       ▼                ▼
-   ┌──────────┐     ┌────────────┐
-   │  ViaCEP  │     │  Geoapify  │
-   │(Endereço)│     │  (Rotas)   │
-   └──────────┘     └────────────┘
-
-   ![Diagrama de Arquitetura](image.png)
+   ![Diagrama de Arquitetura](\docs\image.png)
