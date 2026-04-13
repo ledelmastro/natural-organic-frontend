@@ -75,6 +75,7 @@ npm run preview
 ---
 
 ## 🗂️ Estrutura do Projeto
+```text
 natural-organic-frontend/
 ├── docs/                       # Documentação e capturas de tela
 │   └── screenshots/            # Ex: carrinho.png, clima-dashboard.png
@@ -114,6 +115,8 @@ natural-organic-frontend/
 ├── package.json                # Scripts e dependências (React, Vite, etc)
 ├── README.md
 └── vite.config.js              # Configurações do compilador Vite
+
+
 
 ---
 
