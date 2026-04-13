@@ -128,7 +128,7 @@ natural-organic-frontend/
 ├── package.json                # Scripts e dependências (React, Vite, etc)
 ├── README.md
 └── vite.config.js              # Configurações do compilador Vite
-
+```
 ---
 
 ### 🌐 API Backend
