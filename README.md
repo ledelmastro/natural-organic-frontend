@@ -44,11 +44,16 @@ Interface web moderna para uma loja virtual de produtos orgânicos, desenvolvida
 ```bash
 # Clone o repositório
 git clone https://github.com/ledelmastro/natural-organic-frontend.git
+cd..
+
+# Clone o repositório
+git clone https://github.com/ledelmastro/natural-organic-backend.git
 cd natural-organic-frontend
 
 # Configurar variáveis de ambiente
 # Copie o arquivo de exemplo:
 cp .env.example .env
+
 
 # ⚠️ E configure:
 
