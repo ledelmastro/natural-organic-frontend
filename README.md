@@ -116,8 +116,6 @@ natural-organic-frontend/
 ├── README.md
 └── vite.config.js              # Configurações do compilador Vite
 
-
-
 ---
 
 ## 🌐 API Backend
