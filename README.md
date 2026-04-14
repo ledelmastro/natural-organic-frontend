@@ -4,6 +4,10 @@
 
 Interface web moderna para uma loja virtual de produtos orgânicos, desenvolvida como MVP do curso de Backend Avançado da PUC-Rio. O sistema integra funcionalidades de e-commerce com um dashboard climático inteligente que sugere produtos baseados na temperatura local.
 
+## Vídeo de Apresentação do Projeto Final | Disciplina: Back-end Avançado | PUC-Rio
+
+https://www.youtube.com/watch?v=cqKe0fkphVE
+
 ### ✨ Funcionalidades Principais
 
 - 🛒 **Carrinho de Compras**: CRUD completo com atualização em tempo real
