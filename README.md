@@ -6,7 +6,11 @@ Interface web moderna para uma loja virtual de produtos orgânicos, desenvolvida
 
 ## Vídeo de Apresentação do Projeto Final | Disciplina: Back-end Avançado | PUC-Rio
 
-https://www.youtube.com/watch?v=cqKe0fkphVE
+
+<a href="https://www.youtube.com/watch?v=cqKe0fkphVE" target="_blank">
+  <img src="https://img.youtube.com/vi/cqKe0fkphVE/0.jpg" alt="Assista ao vídeo" width="400">
+</a>
+
 
 ### ✨ Funcionalidades Principais
 
